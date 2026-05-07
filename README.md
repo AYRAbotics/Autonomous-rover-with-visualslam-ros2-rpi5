@@ -68,6 +68,19 @@ The depth sensing module estimates scene depth using monocular vision techniques
 The pseudo 3D mapping system generates contour-based terrain visualization from camera input to simulate depth-aware environmental mapping for autonomous rover applications.
 
 ---
+---
+
+# Pseudo 3D Point Cloud Visualization
+
+<p align="center">
+  <img src="Screenshot 2026-05-07 124005.png" width="700"/>
+</p>
+
+A pseudo 3D point cloud was generated using a single USB webcam and AI-based monocular depth estimation on Raspberry Pi. The system captures an image, predicts relative depth using a lightweight depth estimation model, and converts image pixels into 3D coordinates to visualize a point cloud.
+
+The generated visualization represents the spatial structure of the environment, including walls, floor surfaces, and nearby objects, without using any dedicated depth sensor or LiDAR. This demonstrates low-cost embedded 3D perception using monocular vision and lightweight AI techniques for autonomous robotic applications.
+
+---
 
 # Project Structure
 
