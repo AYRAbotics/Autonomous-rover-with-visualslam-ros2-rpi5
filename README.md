@@ -49,6 +49,25 @@ This project focuses on developing a low-cost intelligent robotic rover capable 
 - SLAM Toolbox
 
 ---
+# Visual Depth Estimation Result
+
+<p align="center">
+  <img src="Screenshot 2026-05-07 113224.png" width="700"/>
+</p>
+
+The depth sensing module estimates scene depth using monocular vision techniques and computer vision processing for environmental understanding and navigation assistance.
+
+---
+
+# Pseudo 3D Contour Mapping Result
+
+<p align="center">
+  <img src="Screenshot 2026-05-07 113314.png" width="700"/>
+</p>
+
+The pseudo 3D mapping system generates contour-based terrain visualization from camera input to simulate depth-aware environmental mapping for autonomous rover applications.
+
+---
 
 # Project Structure
 
@@ -57,3 +76,4 @@ motor_test.py                  # PWM motor testing
 visionbaseddepthsence.py      # Real-time depth sensing
 psudo3dmappingmonovision.py   # Pseudo 3D contour mapping
 README.md
+
