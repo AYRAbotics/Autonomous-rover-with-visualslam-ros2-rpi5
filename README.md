@@ -1,9 +1,5 @@
 # Monocular-Visual-SLAM-ROS2-RPi5
 
-<p align="center">
-  <img src="IMG_20260505_151202006.jpg.jpeg" width="650"/>
-</p>
-
 ## Overview
 
 Monocular Visual SLAM rover platform built using ROS 2 and Raspberry Pi 5 featuring AI-based depth estimation, pseudo 3D mapping, computer vision, and autonomous robotic perception using a single USB camera.
